@@ -36,7 +36,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest]
+        os: [ubuntu-latest, macos-11, windows-2016]
         node-version: [12.x, 14.x, 16.x]
 
     steps:
